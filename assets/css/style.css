@@ -1,0 +1,32 @@
+.banner {
+    background-image: url('../img/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    max-height: 400px;
+    min-width: 100%;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header ul {
+    display: flex;
+    position: relative;
+    list-style: none;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
